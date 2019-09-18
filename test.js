@@ -1,7 +1,7 @@
 const n = 23
 let str = ''
 function reverStr(str) {
-    return str.split("").reverse().join("");
+    return str.split("-").reverse().join("-");
 }
 if (n===1){console.log('1');}
 else if (1 < n && n < 1000){
